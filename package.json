@@ -1,5 +1,5 @@
 {
-	"name": "my-cool-app",
+	"name": "OpsPulse",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
@@ -11,6 +11,7 @@
 		"deploy": "npm run build && wrangler deploy"
 	},
 	"dependencies": {
+		"ipaddr.js": "^2.5.0",
 		"react": "^19.3.1",
 		"react-dom": "^19.3.1"
 	},

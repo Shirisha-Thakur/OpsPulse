@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "my-cool-app",
+	"name": "opspulse",
 	"main": "worker/index.js",
 	"compatibility_date": "2026-11-17",
 	"assets": {
@@ -13,7 +13,17 @@
 	"observability": {
 		"enabled": true
 	},
-	"upload_source_maps": true
+	"upload_source_maps": true,
+	"d1_databases": [
+    {
+        "binding": "DB",
+        "database_name": "opspulse-db",
+        "database_id": "b5dc40f5-7dbd-4389-9bb8-95777edc9262"
+    }
+],
+"triggers": {
+    "crons": ["*/5 * * * *"]
+}
 	/**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
