@@ -393,7 +393,23 @@ Potential areas for improvement include advanced alerting, notification integrat
 
 ---
 
-## 12. Live Deployment
+
+## 12. Application Screenshots
+
+### Dashboard Overview
+
+![OpsPulse Dashboard](screenshots/Dashboard.png)
+
+### Monitored Services
+
+![Monitored Services](screenshots/Monitored-services.png)
+
+### Uptime Monitoring
+
+![Uptime Monitoring](screenshots/Uptime.png)
+
+
+## 13. Live Deployment
 
 **Application:** https://opspulse.opspulse-cloud.workers.dev
 
